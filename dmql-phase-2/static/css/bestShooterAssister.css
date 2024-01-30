@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+body {
+    font-family: 'Abel', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/football.jpeg) center no-repeat fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: visible;
+}
+
+.text-box {
+    background-color: rgba(34, 34, 34, 0.744);
+    opacity: 0.8;
+    border-radius: 20px;
+    margin: 4em auto 2em;
+    padding: 20px;
+    width: 70%;
+    border: 1px solid #808080;
+}
+
+.custom-nav {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.navbar {
+    border-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 80px;
+}
+
+.nav-item .nav-link {
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    border: 1px solid #323232;
+    height: 35px;
+    width: 150px;
+    line-height: 20px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.nav-item .nav-link:hover {
+    background-color: #b2b2b2;
+}
+
+thead th {
+    color: #fff;
+    background-color: #21201E;
+    text-align: center;
+    border: 1px solid #808080;
+    padding: 8px;
+}
+
+tbody tr {
+    background-color: #333;
+    opacity: 0.8;
+}
+
+tbody td {
+    color: white;
+    text-align: center;
+    border: 1px solid #808080;
+    padding: 8px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #333;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4CAF50;
+}
+
+h4 {
+    font-family: 'Abel', sans-serif;
+    position: relative;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 30px;
+    color: #ddd;
+    text-shadow: 3px 3px 10px #5A5A5A;
+}
+
+h2 {
+    font-family: 'Abel', sans-serif;
+    position: relative;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 24px;
+    color: #ddd;
+    text-shadow: 3px 3px 10px #5A5A5A;
+}
+
+hr {
+    border-color: white;
+}
+
+p {
+    font-family: 'Abel', sans-serif;
+    position: relative;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.card.card-body {
+    background-color: #333;
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #808080;
+}
+
+
+
+

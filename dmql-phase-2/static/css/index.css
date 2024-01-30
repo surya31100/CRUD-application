@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+body {
+    font-family: 'Abel', sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../images/football.jpeg) center no-repeat fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: visible;
+}
+
+.text-box {
+    background-color: rgba(34, 34, 34, 0.744);
+    opacity: 0.95;
+    border-radius: 20px;
+    margin: 4em auto 2em;
+    padding: 20px;
+    width: 70%;
+    border: 1px solid #808080;
+}
+
+.custom-nav {
+    background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.navbar {
+    border-color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 80px;
+}
+
+.nav-item .nav-link {
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: white;
+    border: 1px solid #323232;
+    height: 35px;
+    width: 150px;
+    line-height: 20px;
+    margin-top: 15px;
+    text-align: center;
+}
+
+.nav-item .nav-link:hover {
+    background-color: #b2b2b2;
+}
+
+thead th {
+    color: #fff;
+    background-color: #21201E;
+    text-align: center;
+    border: 1px solid #808080;
+    padding: 8px;
+}
+
+/* Style table rows */
+tbody tr {
+    background-color: #333;
+    opacity: 0.95;
+}
+
+/* Style table cells */
+tbody td {
+    color: white;
+    text-align: center;
+    border: 1px solid #808080;
+    padding: 8px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #333;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4CAF50;
+}
+
+h4 {
+    font-family: 'Abel', sans-serif;
+    position: relative;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 30px;
+    color: #ddd;
+    text-shadow: 3px 3px 10px #5A5A5A;
+}
+
+h2 {
+    font-family: 'Abel', sans-serif;
+    position: relative;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 24px;
+    color: #ddd;
+    text-shadow: 3px 3px 10px #5A5A5A;
+}
+
+hr {
+    border-color: white;
+}
+
+p {
+    font-family: 'Abel', sans-serif;
+    position: relative;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+}
+
+.card.card-body.card-body1 {
+    background-color: #333;
+    opacity: 0.95;
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid #808080;
+}
+
+.card.card-body.card-body2 {
+    background-color: white;
+    /* opacity: 0.8; */
+    border-radius: 10px;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+label.form-label {
+    font-weight: bold;
+    font-size: 18px; 
+    color: whitesmoke;
+}
+
+label.form-label1 {
+    font-weight: bold;
+    font-size: 18px; 
+    color: black;
+}
+
+input#id,
+input#name,
+input#unotation {
+    color: white;
+}
+
+button.btn.btn-primary {
+    background-color: #007248;
+    border-color: #007248;
+}
+
+button.btn.btn-primary:hover {
+    background-color: #005b3f;
+    border-color: #005b3f;
+}
+
+a.btn.btn-secondary.btn-sm {
+    background-color: #007248;
+    border-color: #007248;
+    margin-right: 5px;
+}
+
+a.btn.btn-secondary.btn-sm:hover {
+    background-color: #005b3f;
+    border-color: #005b3f;
+}
+
+a.btn.btn-danger.btn-delete.btn-sm {
+    background-color: #ff6b6b;
+    border-color: #ff6b6b;
+}
+
+a.btn.btn-danger.btn-delete.btn-sm:hover {
+    background-color: #ff4040;
+    border-color: #ff4040;
+}
